@@ -20,7 +20,7 @@ class arvore
 		void imprimirProfundidadePos2pilha(); //Impressão por profundidade(pós-ordem com 2 pilhas)
 		void mostraArvore(); //mostra composição atual da árvore
 		void imprimirMaxMin(); // imprime o maior e menor item da árvore
-		void apagarNos(node* ponteiro); //apaga todos os nós da árvore
+		void apagarNos(node* ponteiro); //apaga nó selecionado da árvore
 		void apagarArvore(); //apaga a árvore
 		int getTamanho(); //mostra o tamanho da árvore
 };
